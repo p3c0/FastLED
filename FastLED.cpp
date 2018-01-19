@@ -239,9 +239,9 @@ extern "C" void yield(void) { }
 #ifdef NEED_CXX_BITS
 namespace __cxxabiv1
 {
-	#ifndef ESP32
-	extern "C" void __cxa_pure_virtual (void) {}
-	#endif
+	// #ifndef ESP8266
+	// extern "C" void __cxa_pure_virtual (void) {}
+	// #endif
 
 	/* guard variables */
 
